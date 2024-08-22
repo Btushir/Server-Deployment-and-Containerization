@@ -35,8 +35,13 @@ def _logger():
 
 
 LOG = _logger()
-LOG.debug("Starting with log level: %s" % LOG_LEVEL )
+LOG.debug("Starting with log level: %s" % LOG_LEVEL)
+
+# app = Flask(__name__) creates a new instance of a Flask web application,
+# which is assigned to the variable app. This instance is the main entry point for the Flask app,
+# and it's where you define routes and other configuration settings
 APP = Flask(__name__)
+
 
 def require_jwt(function):
     """

@@ -17,7 +17,7 @@ _mailinglist
 docs/_build/
 __pycache__
 .env_file
-
+examples/
 # Coverage reports
 htmlcov/
 .coverage
@@ -27,5 +27,6 @@ htmlcov/
 # Direnv
 .envrc
 .direnv
+
 
 .github/**

@@ -17,10 +17,11 @@ Parameters:
   GitSourceRepo:
     Type: String
     Description: GitHub source repository - must contain a Dockerfile and buildspec.yml in the base
-    Default: cd0157-Server-Deployment-and-Containerization
+    Default: Server-Deployment-and-Containerization
     MinLength: 1
     MaxLength: 100
-    ConstraintDescription: You must enter a GitHub repository name
+    ConstraintDescription: You must enter a GitHu
+    b repository name
 
   GitBranch:
     Type: String
@@ -40,7 +41,7 @@ Parameters:
 
   GitHubUser:
     Type: String
-    Default: SudKul
+    Default: btushir
     Description: GitHub username or organization
     MinLength: 3
     MaxLength: 100

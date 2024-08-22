@@ -19,7 +19,7 @@ phases:
       # To download a specific version v1.27.9 on Linux, use:
       - curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.27.9/2024-01-04/bin/linux/amd64/kubectl
       # Download the kubectl checksum file
-      - curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.27.9/2024-01-04/bin/linux/amd64/kubectl.sha256
+      - curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.30.2/2024-01-04/bin/linux/amd64/kubectl.sha256
       # Validate the kubectl binary against the checksum file
       - sha256sum -c kubectl.sha256
       # Install kubectl

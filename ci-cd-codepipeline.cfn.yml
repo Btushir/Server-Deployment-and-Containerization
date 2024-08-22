@@ -20,8 +20,7 @@ Parameters:
     Default: Server-Deployment-and-Containerization
     MinLength: 1
     MaxLength: 100
-    ConstraintDescription: You must enter a GitHu
-    b repository name
+    ConstraintDescription: You must enter a GitHub repository name
 
   GitBranch:
     Type: String
